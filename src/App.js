@@ -1,22 +1,34 @@
-import logo from './logo.svg';
+import pizza from './assets/imagenes/pizza.png'
 import './App.css';
+import MiComponente from './components/MiComponente';
+import { useEffect } from 'react';
+
 
 function App() {
+  useEffect(() => {
+    alert("Hola mundo con react! Hoy vamos a cocinar!")
+  }, [])
+
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={pizza} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Hola! La receta de hoy es:
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://www.youtube.com/watch?v=mPXcE9oQwJU"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Video con receta
         </a>
+
+          <section className ="componentes">
+                <MiComponente />
+          </section>
+
       </header>
     </div>
   );
