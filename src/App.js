@@ -6,7 +6,7 @@ import { useEffect } from 'react';
 
 function App() {
   useEffect(() => {
-    alert("Hola mundo con react! Hoy vamos a cocinar!")
+    alert("¡'Hola mundo' con React! ¡Hoy vamos a cocinar!")
   }, [])
 
   return (
@@ -14,7 +14,7 @@ function App() {
       <header className="App-header">
         <img src={pizza} className="App-logo" alt="logo" />
         <p>
-          Hola! La receta de hoy es:
+          La receta de hoy es:
         </p>
         <a
           className="App-link"
@@ -22,7 +22,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Video con receta
+          Video cocinando pizza
         </a>
 
           <section className ="componentes">
