@@ -1,7 +1,8 @@
 import pizza from './assets/imagenes/pizza.png'
-import './App.css';
+import './App.scss';
 import MiComponente from './components/MiComponente';
 import { useEffect } from 'react';
+import videoPizza from './assets/video-pizza.mp4';
 
 
 function App() {
@@ -11,10 +12,13 @@ function App() {
 
   return (
     <div className="App">
+      <video autoPlay loop muted>
+        <source src={videoPizza} type="video/mp4" />
+      </video>
       <header className="App-header">
         <img src={pizza} className="App-logo" alt="logo" />
         <p>
-          La receta de hoy es:
+          La receta de hoy es: ¡Pizza!
         </p>
         <a
           className="App-link"
