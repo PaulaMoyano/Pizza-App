@@ -1,12 +1,13 @@
-App creada con ReactJs para cocinar pizza con distintos ingredientes.
-
-/// EN PROCESO ///
+App creada con ReactJs.
 
 
 Link: https://pizzapau.netlify.app/
 
+![Pizza1](https://user-images.githubusercontent.com/72522699/159188638-3cadc6ea-f43b-48b7-bd0e-ba1b2ee11a9b.jpg)
 
+![Pizza2](https://user-images.githubusercontent.com/72522699/159188640-cd13a439-d1d8-4ec1-8fc4-e0a52f25b1f4.jpg)
 
+![Pizza3](https://user-images.githubusercontent.com/72522699/159188643-e705ef36-d758-4a3a-87b8-802812dcecc7.jpg)
 
 
 
